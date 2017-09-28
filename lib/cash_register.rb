@@ -16,8 +16,9 @@ class CashRegister
     temp_quantity = quantity
     @price = price
     @total += @item_price
-    while quantity>0
+    while temp_quantity>0
       item << item
+      temp_quantity -=1
     end
   end
 
