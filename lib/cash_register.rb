@@ -17,6 +17,6 @@ class CashRegister
     @items << item
   end
 
-  
+
 
 end
